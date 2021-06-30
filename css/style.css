@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+  }
+  
+  .sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #28016b;
+    overflow-x: hidden;
+  }
+  
+  
+  .sidenav a {
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    background-color: #aa85eb;
+    color: black;
+  }
+  
+  .content1 {
+    text-align: center;
+    margin-left: 200px;
+    padding-left: 20px;
+    color: white;
+  }
+
+  .content1 h1 {
+    border-radius: 12px;
+    border-style: solid;
+    border-color: #310183;
+    border-width: 5px;
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color: #310183;
+    text-align: center;
+  }
+  
+  .content1 h2 {
+    border-radius: 12px;
+    border-style: solid;
+    border-color: #310183;
+    border-width: 5px;
+    margin-left: 500px;
+    margin-right: 500px;
+    background-color: #310183;
+    text-align: center;
+    font-size: 40px;
+  }
+
+  .content1 img {
+  width: 250px;
+  }
+
+  .content1 p {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: justify;
+    color: white;
+    font-size: 24px;
+  }
+
+  .content1 ul, ol {
+    text-align: left;
+    display:inline-block;
+    font-size: 24px;
+  }
+
+  .content1 table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: separate;
+    width: "50%";
+    margin-top: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+
+  .content1 td {
+    background-color: #3E01A4;;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 8px;
+    color: white;
+  }
+
+  .content1 th {
+    background-color: #2f027c;;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 8px;
+    color: white;
+  }
+
+
+  .content1 td.w{
+    background-color: rgb(74, 131, 74);
+}
+
+.content1 td.l{
+    background-color:rgb(143, 41, 41);
+}
+
+.content1 video {
+    width: 1000px;
+}
